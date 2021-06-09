@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page{width: 100%;
+    height: 100vh;}
+header{
+display:flex;
+justify-content: flex-end;
+flex-flow: row nowrap;
+height: fit-content;
+align-items: center ;
+}
+.elemento{
+font-size: 0.8rem;
+padding: 12px;
+}
+
+.icone{
+  
+    width: 2.2vw;
+    height: 2.2vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.icone:hover{
+    background-color: rgba(194, 193, 193, 0.883);
+}
+.icone img{
+    width: 1.6vw;
+    height: 1.6vw;
+    padding-top: 5px;
+}
+
+.elemento:hover{
+
+    text-decoration: underline;
+}
+
+.botao{
+    font-size: 0.8rem;
+padding-top:9px;
+padding-bottom: 9px;
+padding-left: 18px;
+padding-right: 18px;
+margin-right: 20px;
+
+color: white;
+background-color: #1a73e8;
+border: 1px solid transparent;
+border-radius: 5%;
+}
+
+.logo_google{
+    height: 40vh;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top:5vh;
+    
+}
+
+.pesquisa{
+    width: 50vw;
+    margin-top: 5vh;
+  display: flex;
+  height: fit-content;
+  border:1px solid rgba(128, 128, 128, 0.582);
+  border-radius: 1.5rem 1.5rem
+  
+}
+
+.pesquisa:hover{
+   box-shadow: 2px 2px grey;
+    border: 1px solid grey ;
+  
+  
+}
+.pesquisa input{
+    width: 100% ;
+    padding-left: 10px;
+    padding: 10px;
+    padding-right: 10px;
+   border: none;
+  outline: none;
+ 
+  font-size: 1.2rem;
+}
+.pesquisa svg{
+  
+    margin:10px;
+max-width: 5vh;
+height: 5vh;
+}
+
+.botoes{
+    display:flex;
+    justify-content: center;    
+}
+
+.botoes div{
+    font-size: 0.9rem;
+    padding: 10px;
+    margin-right: 2rem;
+    background-color: rgba(238, 238, 238, 0.685);
+}
+
+footer{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+
+}
+footer ul{
+    padding:10px;
+    margin:15px;
+    list-style: none;
+}
+
+footer li{
+
+    
+}
+.footer_body{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+.footer_item{
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_item1{
+    background-color: grey;
+}
