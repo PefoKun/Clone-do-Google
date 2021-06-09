@@ -64,14 +64,15 @@ border-radius: 5%;
     flex-direction: column;
     justify-content: center;
     padding-top:5vh;
+    border-bottom: -20px;
     
 }
 
 .pesquisa{
-    width: 50vw;
+    width: 40%;
     margin-top: 5vh;
   display: flex;
-  height: fit-content;
+  height: 50px;
   border:1px solid rgba(128, 128, 128, 0.582);
   border-radius: 1.5rem 1.5rem
   
@@ -96,8 +97,8 @@ border-radius: 5%;
 .pesquisa svg{
   
     margin:10px;
-max-width: 5vh;
-height: 5vh;
+max-width: 34px;
+height: 35px;
 }
 
 .botoes{
@@ -115,28 +116,38 @@ height: 5vh;
 footer{
     position: absolute;
     bottom:0;
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
 
 }
 footer ul{
-    padding:10px;
+    
     margin:15px;
     list-style: none;
 }
 
 footer li{
 
-    
+padding: 10px;
+
 }
+footer li:hover{
+    text-decoration: underline;
+    
+    }
 .footer_body{
-    width: 100%;
+
+    width: 100vw;
     flex-direction: column;
     display: flex;
 }
 
 .footer_item{
     display: flex;
-    background-color: grey;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(219, 214, 214);
     justify-content: space-between;
 }
 
@@ -146,5 +157,8 @@ ul{
 }
 
 .footer_item1{
-    background-color: grey;
+    width: 97.8vw;
+    background-color: rgb(219, 214, 214);
+   
+    padding: 20px;
 }
